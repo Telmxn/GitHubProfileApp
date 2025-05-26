@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol APIService {
+    func getUserData(username: String, completion: @escaping (Result<GithubUser, NetworkError>) -> ())
+}
