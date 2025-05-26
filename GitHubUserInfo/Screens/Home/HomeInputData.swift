@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct HomeInputData {
+    let username: String
+}
